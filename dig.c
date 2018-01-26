@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+main()
 {
 	 int no,rem,sum=1;
 	 scanf("%d",&no);
@@ -10,5 +10,4 @@ int main()
 	 	no=no/10;
 	 }
 	 printf("%d",sum);
-	 return 0;
 }
